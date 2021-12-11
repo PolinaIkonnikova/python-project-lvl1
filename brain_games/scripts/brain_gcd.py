@@ -2,7 +2,7 @@
 
 
 import random
-from brain_games.for_games import user_name, game_process
+from brain_games.games.for_games import user_name, game_process
 
 
 def main():
