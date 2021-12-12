@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 
-from brain_games.games.for_games import user_name, game_process
+from brain_games.game_logic import user_name, game_process
 from brain_games.games.progression import progression
 
 
