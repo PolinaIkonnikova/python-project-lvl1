@@ -2,7 +2,7 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = "The collection of 5 math games"
-authors = ["Polina Ikonnikova spollyv@gmail.com"]
+authors = ["Polina Ikonnikova <spollyv@gmail.com>"]
 packages = [
   { include = "brain_games" },
 ]
