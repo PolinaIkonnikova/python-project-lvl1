@@ -7,22 +7,27 @@ Welcome to the Brain Games!
 There are five math games.
 At the beginning you need clone this repository and install the package:
 
-<script src="https://asciinema.org/a/30xaIaoN850prx86JL8sk6kux?speed=2" id="asciicast-14" async></script>
+[![asciicast](https://asciinema.org/a/30xaIaoN850prx86JL8sk6kux.svg)](https://asciinema.org/a/30xaIaoN850prx86JL8sk6kux?speed=2)
 
 You can run each game in your terminal in any order!
 Enjoy!
 
 The brain-even
-https://asciinema.org/a/QuNzGu3c7ef9gxdRWZug9uxiY
+
+[![asciicast](https://asciinema.org/a/QuNzGu3c7ef9gxdRWZug9uxiY.svg)](https://asciinema.org/a/QuNzGu3c7ef9gxdRWZug9uxiY?speed=2)
 
 The brain-calc
-https://asciinema.org/a/GQeSOualuqcAc18ou9rdLdXuP
+
+[![asciicast](https://asciinema.org/a/GQeSOualuqcAc18ou9rdLdXuP.svg)](https://asciinema.org/a/GQeSOualuqcAc18ou9rdLdXuP?speed=2)
 
 The brain-gcd
-https://asciinema.org/a/t4uSoqFTmcMADXNShqIZnZ9ix
+
+[![asciicast](https://asciinema.org/a/t4uSoqFTmcMADXNShqIZnZ9ix.svg)](https://asciinema.org/a/t4uSoqFTmcMADXNShqIZnZ9ix?speed=2)
 
 The brain-progression
-https://asciinema.org/a/NlMhfEATLHocRvGER0u705wpJ
+
+[![asciicast](https://asciinema.org/a/NlMhfEATLHocRvGER0u705wpJ.svg)](https://asciinema.org/a/NlMhfEATLHocRvGER0u705wpJ?speed=2)
 
 The brain-prime
-https://asciinema.org/a/Zw4S1jKL37Xg8zUmeSpmRWCmu
+
+[![asciicast](https://asciinema.org/a/Zw4S1jKL37Xg8zUmeSpmRWCmu.svg)](https://asciinema.org/a/Zw4S1jKL37Xg8zUmeSpmRWCmu?speed=2)
