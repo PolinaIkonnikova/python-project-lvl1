@@ -1,5 +1,6 @@
 import random
 
+game_question = ''
 
 def gcd():
     num_1 = random.randint(0, 100)
