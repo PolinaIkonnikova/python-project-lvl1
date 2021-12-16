@@ -3,6 +3,8 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/PolinaIkonnikova/python-project-lvl1/maintainability)
 
+[![Actions Status](https://github.com/PolinaIkonnikova/python-project-lvl1/workflows/linter/badge.svg)](https://github.com/PolinaIkonnikova/python-project-lvl1/actions)
+
 Welcome to the Brain Games!
 There are five math games.
 At the beginning you need clone this repository and install the package:
