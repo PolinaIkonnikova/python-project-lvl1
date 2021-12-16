@@ -1,14 +1,12 @@
 #!/usr/bin/env python
 
 
-from brain_games.game_logic import user_name, game_process
-from brain_games.games.progression import progression
+from brain_games.game_logic import game_process
+from brain_games.games import progression_mod
 
 
 def main():
-    name = user_name()
-    print("What number is missing in the progression?")
-    game_process(name, progression)
+    game_process(progression_mod)
 
 
 if __name__ == '__main__':

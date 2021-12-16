@@ -1,14 +1,12 @@
 #!/usr/bin/env python
 
 
-from brain_games.game_logic import user_name, game_process
-from brain_games.games.calc import calc
+from brain_games.game_logic import game_process
+from brain_games.games import calc_mod
 
 
 def main():
-    name = user_name()
-    print('What is the result of the expression?')
-    game_process(name, calc)
+    game_process(calc_mod)
 
 
 if __name__ == '__main__':

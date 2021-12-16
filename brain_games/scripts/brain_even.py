@@ -1,14 +1,12 @@
 #!/usr/bin/env python
 
 
-from brain_games.game_logic import user_name, game_process
-from brain_games.games.even import even
+from brain_games.game_logic import game_process
+from brain_games.games import even_mod
 
 
 def main():
-    name = user_name()
-    print("Answer 'yes' if the number is even, otherwise answer 'no'.")
-    game_process(name, even)
+    game_process(even_mod)
 
 
 if __name__ == '__main__':

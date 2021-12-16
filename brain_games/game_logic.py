@@ -1,25 +1,22 @@
 import prompt
 
 
-def user_name():
+def game_process(game_modul):
     print("Welcome to The Brain Games!")
     name = prompt.string('May I have your name? ')
     print("Hello, {}!".format(name))
-    return name
-
-
-def game_process(name, func_game):
+    print(game_modul.MAIN_QUESTION)
+    final_words = 'Congratulations, {}!'.format(name)
     for x in range(3):
-        true_answer = str(func_game())
+        results = game_modul.func_game()
+        print("Question: " + results[0])
+        true_answer = results[1]
         answer = prompt.string('Your answer: ')
         if answer == true_answer:
             print('Correct!')
-            win = True
         else:
             print("'{}' is wrong answer ;(. Correct answer was '{}'.".
                   format(answer, true_answer))
-            win = False
+            final_words = "Let's try again, {}!".format(name)
             break
-    praise = 'Congratulations, {}!'.format(name)
-    for_looser = "Let's try again, {}!".format(name)
-    print(for_looser if win is False else praise)
+    print(final_words)

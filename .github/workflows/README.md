@@ -4,5 +4,3 @@
 
 Файл hexlet-check.yml отвечает за запуск этих тестов - не удаляйте этот файл, не редактируйте его и не переименовывайте репозиторий.
 ![example workflow](https://github.com/PolinaIkonnikova/python-project-lvl1/actions/workflows/linter.yml/badge.svg)
-
-![example workflow](https://github.com/PolinaIkonnikova/python-project-lvl1/actions/workflows/hexlet-check.yml/badge.svg)
