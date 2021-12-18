@@ -9,7 +9,7 @@ Welcome to the Brain Games!
 There are five math games.
 At the beginning you need clone this repository and install the package:
 
-[![asciicast](https://asciinema.org/a/30xaIaoN850prx86JL8sk6kux.svg)](https://asciinema.org/a/30xaIaoN850prx86JL8sk6kux?speed=2)
+[![asciicast](https://asciinema.org/a/MmaNJWQvvB1NjsqlJ9oAnO8tu.svg)](https://asciinema.org/a/MmaNJWQvvB1NjsqlJ9oAnO8tu?speed=2)
 
 You can run each game in your terminal in any order!
 Enjoy!
