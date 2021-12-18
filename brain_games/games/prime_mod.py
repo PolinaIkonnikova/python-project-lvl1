@@ -1,13 +1,13 @@
 import random
 
 
-MAIN_QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def func_game():
+def generate_round():
     num = random.randint(1, 500)
-    true_answer = 'yes' if is_prime(num) is True else 'no'
-    return str(num), true_answer
+    answer = 'yes' if is_prime(num) is True else 'no'
+    return str(num), answer
 
 
 def is_prime(num):

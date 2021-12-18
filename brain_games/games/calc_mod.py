@@ -1,17 +1,17 @@
 import random
 
 
-MAIN_QUESTION = 'What is the result of the expression?'
+DESCRIPTION = 'What is the result of the expression?'
 
 
-def func_game():
+def generate_round():
     operation_list = ['+', '-', '*']
     operation = random.choice(operation_list)
     num_1 = random.randint(0, 100)
     num_2 = random.randint(0, 100)
-    true_answer = calc(num_1, operation, num_2)
+    answer = calc(num_1, operation, num_2)
     question = '{} {} {} ='.format(num_1, operation, num_2)
-    return question, str(true_answer)
+    return question, str(answer)
 
 
 def calc(num_1, operation, num_2):
@@ -19,5 +19,5 @@ def calc(num_1, operation, num_2):
         return num_1 + num_2
     elif operation == '-':
         return num_1 - num_2
-    else:
+    elif operation == '*':
         return num_1 * num_2

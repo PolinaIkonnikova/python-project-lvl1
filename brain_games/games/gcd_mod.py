@@ -1,15 +1,15 @@
 import random
 
 
-MAIN_QUESTION = "Find the greatest common divisor of given numbers."
+DESCRIPTION = "Find the greatest common divisor of given numbers."
 
 
-def func_game():
+def generate_round():
     num_1 = random.randint(0, 100)
     num_2 = random.randint(0, 100)
-    true_answer = gcd(num_1, num_2)
+    answer = gcd(num_1, num_2)
     question = '{} {}'.format(num_1, num_2)
-    return question, str(true_answer)
+    return question, str(answer)
 
 
 def gcd(num_1, num_2):
